@@ -1,0 +1,25 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue-600: hsl(185, 75%, 39%);
+  --navy-950: hsl(229, 23%, 23%);
+  --gray-500: hsl(227, 10%, 46%);
+  --gray-100: hsl(225, 10%, 92%);
+  --body-font: "Kumbh Sans", sans-serif;
+}
+body {
+  display: flex;
+  min-height: 100dvh;
+  align-items: center;
+  font-size: 1.125rem;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--body-font);
+  background-color: var(--gray-100);
+}
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
